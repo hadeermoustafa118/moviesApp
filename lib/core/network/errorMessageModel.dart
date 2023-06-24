@@ -12,6 +12,6 @@ class ErrorMessageModel extends Equatable{
   }
   @override
   // TODO: implement props
-  List<Object?> get props => [statusCode, statusCode, success];
+  List<Object?> get props => [statusMessage, statusCode, success];
 
 }
